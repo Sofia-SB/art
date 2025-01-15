@@ -1,0 +1,107 @@
+body {
+    height: 40%;
+    margin: 0%;
+    background-color: rgb(20, 19, 19);
+}
+
+header {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.90),
+            rgba(0, 0, 0, 0.85)
+        ),
+        url("history of art/background.jpeg"); 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 250%;
+        width: 100%;
+        z-index: -2;
+}
+
+h1 {
+    font-size: 380%;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 15%;
+}
+
+header a {
+    color: rgb(121, 121, 121);
+    text-decoration: none;
+    display: inline;
+    transition: 0.5s;
+    margin-left: 5%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+header a:hover {
+    color: rgb(196, 164, 103);
+}
+
+.logo {
+    position: absolute;
+    height: 18%;
+    width: 9%;
+    margin-top: -1%;
+    margin-left: -1%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.lang {
+    position: absolute;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: rgb(121, 121, 121);
+    margin-left: 94%;
+    margin-top: -3%;
+    padding-right: 3%;
+    cursor: pointer;
+}
+
+.lang::-ms-expand {
+    display: none;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper::before {
+    content: "";
+    position: absolute;
+    margin-top: -2.6%;
+    margin-left: 95.8%;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 6px solid grey;
+    
+}
+
+option {
+    border: none;
+    background-color: rgb(28, 23, 21);
+}
+
+option:hover{
+    background-color: black;
+}
+
+.lang1 option:hover{
+    background-color: black;
+}
