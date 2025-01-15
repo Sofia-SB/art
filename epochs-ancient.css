@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'Cotta';
+    src: url("cotta-free.otf") format('opentype');
+}
+
+body {
+    height: 830%;
+    margin: 0%;
+    background-color: rgb(20, 19, 19);
+}
+
+header {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.90),
+            rgba(0, 0, 0, 0.85)
+        ),
+        url("history of art/background.jpeg"); 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 12%;
+        width: 100%;
+}
+
+header h1 {
+    color: rgb(234, 229, 221);
+    text-transform: uppercase;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    height: 10%;
+    font-size: 380%;
+    margin-left: 5%;
+    margin-top: 9%;
+    text-align: center;
+}
+
+.border1 {
+    height: 20%;
+    width: 85%;
+    border-bottom: solid rgb(225, 198, 128);
+    margin-top: -2%;
+    margin-left: 7%;
+}
+
+.border2 {
+    height: 20%;
+    width: 70%;
+    border-bottom: solid rgb(225, 198, 128);
+    margin-top: -5%;
+    margin-left: 14%;
+}
+
+.border3 {
+    height: 30%;
+    width: 15%;
+    border: solid rgb(225, 198, 128);
+    border-radius: 100%;
+    margin-top: -8%;
+    margin-left: 65%;
+}
+
+header a {
+    color: rgb(121, 121, 121);
+    text-decoration: none;
+    display: inline;
+    transition: 0.5s;
+    margin-left: 5%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+header a:hover {
+    color: rgb(196, 164, 103);
+}
+
+.logo {
+    position: absolute;
+    height: 18%;
+    width: 9%;
+    margin-top: -1%;
+    margin-left: -1%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.lang {
+    position: absolute;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: rgb(121, 121, 121);
+    margin-left: 94%;
+    margin-top: -3%;
+    padding-right: 3%;
+    cursor: pointer;
+}
+
+.lang::-ms-expand {
+    display: none;
+}
+
+.girl {
+    position: absolute;
+    height: 95%;
+    width: 37%;
+    margin-top: -3.3%;
+}
+
+.columns {
+    position: absolute;
+    height: 89%;
+    width: 35%;
+    margin-left: 65%;
+    margin-top: -1%;
+} 
+
+main h2 {
+    color: rgb(182, 116, 31);
+    font-size: 40px;    
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    height: 25px;
+}
+
+main p {
+    color: white;
+}
+
+.ancient-art {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.ancient-art p {
+    margin-right: 20%;
+}

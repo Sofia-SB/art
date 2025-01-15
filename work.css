@@ -1,0 +1,284 @@
+body {
+    height: 155%;
+    margin: 0%;
+    background-color: rgb(20, 19, 19);
+}
+
+header {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.90),
+            rgba(0, 0, 0, 0.85)
+        ),
+        url("history of art/background.jpeg"); 
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 65%;
+        width: 100%;
+}
+
+header a {
+    color: rgb(121, 121, 121);
+    text-decoration: none;
+    display: inline;
+    transition: 0.5s;
+    margin-left: 5%;
+    cursor: pointer;
+    margin-top: 2%;
+}
+
+header a:hover {
+    color: rgb(196, 164, 103);
+}
+
+.logo {
+    position: absolute;
+    height: 18%;
+    width: 9%;
+    margin-top: -1%;
+    margin-left: -1%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+.lang {
+    position: absolute;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: rgb(121, 121, 121);
+    margin-left: 94%;
+    margin-top: -3%;
+    padding-right: 3%;
+    cursor: pointer;
+}
+
+.lang::-ms-expand {
+    display: none;
+}
+
+h2 {
+    color: rgb(182, 116, 31);
+    font-size: 40px;    
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    height: 25px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo1 {
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    margin-left: 25%;
+    padding-top: 5%;
+}
+
+.nav a {
+    color: rgb(121, 121, 121);
+    display: inline;
+    transition: 0.5s;
+    margin-left: 5%;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+main {
+    margin-top: 5%;
+}
+
+td {
+    color: beige;
+    width: 30%;
+    font-size: 150%;
+    padding-top: 3%;
+}
+
+.table1 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 4%;
+    border-right: 2px solid rgb(196, 164, 103);
+}
+
+.table2 {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 4%;
+}
+
+.schedule {
+    background-color: rgba(0,0,0,.4);
+    height: 62%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 5%;
+    border-radius: 5%;
+}
+
+.clock {
+    height: 27%;
+    margin-top: -32%;
+    margin-left: 15%;
+}
+
+footer {
+    background-color: black;
+    height: 43%;
+    width: 100%;
+}
+
+.logo1 {
+    position: absolute;
+    height: 20%;
+    width: 10%;
+    margin-top: 4%;
+    margin-left: 3%;
+}
+
+.nav {
+    color: white;
+    display: flex;
+    margin-left: 25%;
+    padding-top: 5%;
+}
+
+.nav a {
+    color: rgb(121, 121, 121);
+    display: inline;
+    transition: 0.5s;
+    margin-left: 5%;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+footer a:hover {
+    color: rgb(196, 164, 103);
+}
+
+footer h3 {
+    text-transform: uppercase;
+    margin-left: 29%;
+    margin-top: 3%;
+    color: rgb(182, 116, 31);
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+}
+
+.select-wrapper {
+    position: relative;
+}
+
+.select-wrapper::before {
+    content: "";
+    position: absolute;
+    margin-top: -2.6%;
+    margin-left: 95.8%;
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 6px solid grey;
+    
+}
+
+.lang1 {
+    position: absolute;
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: rgb(121, 121, 121);
+    margin-left: 94%;
+    margin-top: -3%;
+    padding-right: 3%;
+    cursor: pointer;
+}
+
+.lang1::-ms-expand {
+    display: none;
+}
+
+option {
+    border: none;
+    background-color: rgb(28, 23, 21);
+}
+
+option:hover{
+    background-color: black;
+}
+
+form {
+    margin-top: 3%;
+    margin-left: 29%;
+    border: none;
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    height: 7%;
+    width: 10%;
+    background-color: rgb(182, 116, 31);
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "EB Garamond", serif;
+    font-weight: bold;
+    font-size: 115%;
+    color: rgb(52, 40, 25);
+    margin-left: -20;
+}
+
+.btn:hover {
+    background-color: rgb(232, 169, 79);
+    color: rgb(71, 62, 43);
+}
+
+.e-mail {
+    border: none;
+    border-radius: 10px;
+    height: 10%;
+    width: 25%;
+    font-family: "EB Garamond", serif;
+    font-size: 115%;
+    padding-left: 3%;
+    padding-right: 4%;
+    outline: none;
+}
+
+.messenger {
+    height: 13%;
+    width: 3.5%;
+    margin-left: 29%;
+}
+
+footer p {
+    color: white;
+    font-size: 105%;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: -2.5%;
+}
+.lang1 option:hover{
+    background-color: black;
+}
